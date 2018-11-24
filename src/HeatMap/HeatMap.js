@@ -20,24 +20,25 @@ class HeatMap extends Component {
 
   renderGrid() {
     const {
-      xLabels,
-      yLabels,
-      data,
       background,
+      cellStyle,
+      data,
+      getValue,
       height,
-      xLabelWidth,
-      unit,
       onClick,
       squares,
-      cellStyle
+      xLabels,
+      yLabels,
+      xLabelWidth,
+      unit
     } = this.props;
 
     const { Cell, CellContent, YLabel } = this.components;
     const cursor = onClick !== undefined ? 'pointer' : null;
 
-    const flatArray = data.reduce((i, o) => [...o, ...i], []);
-    const max = Math.max(...flatArray);
-    const min = Math.min(...flatArray);
+    const values = data.reduce((i, o) => [...o, ...i], []).map(getValue);
+    const max = Math.max(...values);
+    const min = Math.min(...values);
     return (
       <div>
         {yLabels.map((y, yi) => (
@@ -112,13 +113,15 @@ class HeatMap extends Component {
 }
 
 HeatMap.propTypes = {
+  components: PropTypes.object,
+  getValue: PropTypes.func,
   xLabels: PropTypes.arrayOf(
     PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.object])
   ).isRequired,
   yLabels: PropTypes.arrayOf(
     PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.object])
   ).isRequired,
-  data: PropTypes.arrayOf(PropTypes.array).isRequired,
+  data: PropTypes.array.isRequired,
   background: PropTypes.string,
   height: PropTypes.number,
   xLabelWidth: PropTypes.number,
@@ -135,6 +138,7 @@ HeatMap.defaultProps = {
     opacity: (value - min) / (max - min) || 0
   }),
   component: {},
+  getValue: value => value,
   background: '#239a3b',
   height: 30,
   xLabelWidth: 60,

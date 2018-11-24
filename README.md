@@ -61,6 +61,7 @@ ReactDOM.render(
 |xLabelsLocation|string|Location of y labels. It can be top or bottom|`"top"`|  
 |unit|string|Unit to display next to the value on hover||  
 |cellStyle|function|To set custom cell style. It is useful for using own colour scheme||  
+|getValue|function|To get value from provided data|value => value|  
   
 [Example](https://github.com/elv1n/react-light-heatmap/tree/master/example/src/App.js)
 ```javascript  
