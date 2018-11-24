@@ -1,5 +1,5 @@
 
-# react-heat-map  
+# react-light-heatmap
   
 [![NPM](https://img.shields.io/npm/v/react-light-heatmap.svg)](https://www.npmjs.com/package/react-light-heatmap) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
   
