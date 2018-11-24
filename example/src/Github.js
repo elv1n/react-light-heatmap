@@ -41,14 +41,14 @@ for (let i = 1; i < weeks; i++) {
 const YLabel = ({ index, ...rest }) => {
   if (index % 2 === 0) return null;
   return (
-    <Typography variant="body1" component="div">
+    <Typography variant="subtitle2" component="div">
       <components.YLabel {...rest} />
     </Typography>
   );
 };
 const XLabel = props => {
   return (
-    <Typography variant="body2" component="div">
+    <Typography variant="overline" component="div">
       <components.XLabel {...props} />
     </Typography>
   );
