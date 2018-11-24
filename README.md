@@ -23,11 +23,12 @@ npm install react-light-heatmap --save
 ## Usage  
   
 **Mandatory fields**   
-|Name |Type|Sample|  
-|---|---|---|  
-|`xLabels`|Array of string|`['1am', '2am', '3am']`|  
-|`yLabels`|Array of string|`['Sun', 'Mon']`|  
-|`data`|2D Array of numbers having `yLabels.length` rows and `xLabels.length` rows|`[[2,3,5][5,6,9]]`|   
+
+|Name |Type|Sample|
+|---|---|---|
+|`xLabels`|Array of string|`['1am', '2am', '3am']`|
+|`yLabels`|Array of string|`['Sun', 'Mon']`|
+|`data`|2D Array of numbers having `yLabels.length` rows and `xLabels.length` rows|`[[2,3,5][5,6,9]]`|
   
 ```javascript  
 const xLabels = new Array(24).fill(0).map((_, i) => `${i}`);  
