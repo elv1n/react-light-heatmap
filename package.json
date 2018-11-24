@@ -1,10 +1,10 @@
 {
-  "name": "react-heatmap",
-  "version": "1.0.0",
+  "name": "react-light-heatmap",
+  "version": "0.0.1",
   "description": "React component for heatmap grid layout",
   "author": "elv1n",
   "license": "MIT",
-  "repository": "elv1n/react-heatmap",
+  "repository": "elv1n/react-light-heatmap",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -35,11 +35,14 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "cross-env": "^5.1.4",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
     "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
@@ -56,6 +59,11 @@
     "rollup-plugin-url": "^1.4.0"
   },
   "files": [
-    "dist"
-  ]
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "fast-deep-equal": "^2.0.1",
+    "memoize-one": "^4.0.3"
+  }
 }
