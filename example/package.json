@@ -1,6 +1,6 @@
 {
   "name": "react-heatmap-example",
-  "homepage": "https://elv1n.github.io/react-heatmap",
+  "homepage": "https://elv1n.github.io/react-light-heatmap",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -11,7 +11,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-light-heatmap": "link:..",
-    "react-scripts": "^1.1.4",
+    "react-scripts": "2.1.1",
     "react-tooltip": "^3.9.0"
   },
   "scripts": {
@@ -19,5 +19,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

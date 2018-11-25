@@ -1,6 +1,6 @@
 {
-  "short_name": "react-heatmap",
-  "name": "react-heatmap",
+  "short_name": "react-light-heatmap",
+  "name": "react-light-heatmap",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
