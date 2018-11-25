@@ -1,10 +1,11 @@
 
-# react-light-heatmap
-  
+# react-light-heatmap  
 [![NPM](https://img.shields.io/npm/v/react-light-heatmap.svg)](https://www.npmjs.com/package/react-light-heatmap) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
   
 A React component for heatmap in grid layout using `div`.  
   
+### [Demo](https://elv1n.github.io/react-light-heatmap/)
+
 ![alt tag](https://github.com/elv1n/react-light-heatmap/raw/master/example/public/screenshot.png)  
   
 ## Installation  
