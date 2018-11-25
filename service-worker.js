@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-heatmap/precache-manifest.f32322bb2dbea7ee2f6ce777f0453196.js"
+  "/react-light-heatmap/precache-manifest.78f7f48c8503829933d07c7ed2a25ec6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-heatmap/index.html", {
+workbox.routing.registerNavigationRoute("/react-light-heatmap/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

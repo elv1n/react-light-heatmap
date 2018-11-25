@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-heatmap/static/css/main.420c6267.chunk.css",
-  "main.js": "/react-heatmap/static/js/main.3ce7feb4.chunk.js",
-  "main.js.map": "/react-heatmap/static/js/main.3ce7feb4.chunk.js.map",
-  "static/js/1.26283db9.chunk.js": "/react-heatmap/static/js/1.26283db9.chunk.js",
-  "static/js/1.26283db9.chunk.js.map": "/react-heatmap/static/js/1.26283db9.chunk.js.map",
-  "runtime~main.js": "/react-heatmap/static/js/runtime~main.23e381c4.js",
-  "runtime~main.js.map": "/react-heatmap/static/js/runtime~main.23e381c4.js.map",
-  "static/css/main.420c6267.chunk.css.map": "/react-heatmap/static/css/main.420c6267.chunk.css.map",
-  "index.html": "/react-heatmap/index.html",
-  "precache-manifest.f32322bb2dbea7ee2f6ce777f0453196.js": "/react-heatmap/precache-manifest.f32322bb2dbea7ee2f6ce777f0453196.js",
-  "service-worker.js": "/react-heatmap/service-worker.js"
+  "main.css": "/react-light-heatmap/static/css/main.420c6267.chunk.css",
+  "main.js": "/react-light-heatmap/static/js/main.3ce7feb4.chunk.js",
+  "main.js.map": "/react-light-heatmap/static/js/main.3ce7feb4.chunk.js.map",
+  "static/js/1.26283db9.chunk.js": "/react-light-heatmap/static/js/1.26283db9.chunk.js",
+  "static/js/1.26283db9.chunk.js.map": "/react-light-heatmap/static/js/1.26283db9.chunk.js.map",
+  "runtime~main.js": "/react-light-heatmap/static/js/runtime~main.7193436a.js",
+  "runtime~main.js.map": "/react-light-heatmap/static/js/runtime~main.7193436a.js.map",
+  "static/css/main.420c6267.chunk.css.map": "/react-light-heatmap/static/css/main.420c6267.chunk.css.map",
+  "index.html": "/react-light-heatmap/index.html",
+  "precache-manifest.78f7f48c8503829933d07c7ed2a25ec6.js": "/react-light-heatmap/precache-manifest.78f7f48c8503829933d07c7ed2a25ec6.js",
+  "service-worker.js": "/react-light-heatmap/service-worker.js"
 }
