@@ -47,7 +47,7 @@ class HeatMap extends Component {
               {YLabel && <YLabel value={y} index={yi} height={height} />}
             </div>
             {xLabels.map((x, xi) => {
-              const value = data[yi][xi];
+              const value = getValue(data[yi][xi]);
               const style = {
                 cursor,
                 margin: '1px 1px 0 0',
