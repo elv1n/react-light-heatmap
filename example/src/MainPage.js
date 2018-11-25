@@ -26,9 +26,9 @@ function MainPage({ classes }) {
         react-light-heatmap{' '}
         <a
           className="github-button"
-          href="https://github.com/elvin/react-heat-map"
+          href="https://github.com/elv1n/react-light-heatmap"
           data-size="large"
-          aria-label="Star elvin/react-heat-map on GitHub"
+          aria-label="Star elv1n/react-light-heatmap on GitHub"
         >
           Star
         </a>
