@@ -57,7 +57,6 @@ class HeatMap extends Component {
                 textAlign: 'center',
                 ...cellStyle(background, value, min, max, data, xi, yi)
               };
-              const title = (value || value === 0) && `${value} ${unit}`;
               return (
                 <Cell
                   key={`${xi}_${yi}`}
@@ -65,7 +64,6 @@ class HeatMap extends Component {
                   y={yi}
                   value={value}
                   onClick={onClick ? () => onClick(xi, yi) : undefined}
-                  title={title}
                   style={style}
                   height={height}
                 >
