@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function YLabel({ index, height, style, value }) {
+const YLabel = React.forwardRef(({ index, height, style, value }, ref) => {
   return (
     <div
       style={{
@@ -10,11 +10,12 @@ function YLabel({ index, height, style, value }) {
         paddingTop: `${height / 3.7}px`,
         ...style
       }}
+      ref={ref}
     >
       {value}
     </div>
   );
-}
+});
 
 YLabel.propTypes = {
   index: PropTypes.number,

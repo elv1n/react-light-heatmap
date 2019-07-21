@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Cell({ x, y, value, height, children, ...rest }) {
-  return (
-    <div {...rest}>
-      <div style={{ paddingTop: `${height / 3.7}px` }}>{children}</div>
-    </div>
-  );
-}
+const Cell = React.forwardRef(
+  ({ x, y, value, height, children, ...rest }, ref) => {
+    return (
+      <div {...rest} ref={ref}>
+        <div style={{ paddingTop: `${height / 3.7}px` }}>{children}</div>
+      </div>
+    );
+  }
+);
 
 Cell.propTypes = {
   height: PropTypes.number.isRequired,

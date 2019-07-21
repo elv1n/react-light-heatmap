@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function XLabel({ index, height, squares, style, value }) {
+const XLabel = React.forwardRef(({ index, height, squares, style, value }) => {
   return (
     <div
       style={{
@@ -10,11 +10,12 @@ function XLabel({ index, height, squares, style, value }) {
         width: squares ? `${height + 1}px` : 'undefined',
         ...style
       }}
+      ref={ref}
     >
       {value}
     </div>
   );
-}
+});
 
 XLabel.propTypes = {
   height: PropTypes.number,
