@@ -1,21 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const XLabel = React.forwardRef(({ index, height, squares, style, value }) => {
-  return (
-    <div
-      style={{
-        flex: squares ? 'none' : 1,
-        textAlign: 'center',
-        width: squares ? `${height + 1}px` : 'undefined',
-        ...style
-      }}
-      ref={ref}
-    >
-      {value}
-    </div>
-  );
-});
+const XLabel = React.forwardRef(
+  ({ index, height, squares, style, value }, ref) => {
+    return (
+      <div
+        style={{
+          flex: squares ? 'none' : 1,
+          textAlign: 'center',
+          width: squares ? `${height + 1}px` : 'undefined',
+          ...style
+        }}
+        ref={ref}
+      >
+        {value}
+      </div>
+    );
+  }
+);
 
 XLabel.propTypes = {
   height: PropTypes.number,
